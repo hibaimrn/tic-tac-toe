@@ -62,3 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updatePlayerStatus(null);
 });
+document.getElementById('rickroll-btn').addEventListener('click', function() {
+    window.location.href = 'rickroll.html';
+});
